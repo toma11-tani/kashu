@@ -466,6 +466,39 @@ section {
   margin: 0 auto;
 }
 
+/* ギャラリー */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.photo-card {
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: stretch;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-card figcaption {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--charcoal);
+}
+
 .menu-card-content {
   padding: 1.5rem;
 }
