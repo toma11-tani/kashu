@@ -119,9 +119,9 @@ body {
 }
 
 .btn-primary:hover {
-  background: #B55A3A;
-  box-shadow: 0 4px 12px var(--shadow-hover);
-  transform: translateY(-2px);
+  background: #b95d3e;
+  box-shadow: 0 6px 14px var(--shadow-hover);
+  transform: translateY(-1px);
 }
 
 .btn-secondary {
@@ -131,9 +131,9 @@ body {
 }
 
 .btn-secondary:hover {
-  background: #266D5F;
-  box-shadow: 0 4px 12px var(--shadow-hover);
-  transform: translateY(-2px);
+  background: #2b6f61;
+  box-shadow: 0 6px 14px var(--shadow-hover);
+  transform: translateY(-1px);
 }
 
 .btn-outline {
@@ -143,8 +143,9 @@ body {
 }
 
 .btn-outline:hover {
-  background: var(--brick);
-  color: var(--white);
+  background: #fbe9e1;
+  color: var(--brick);
+  box-shadow: 0 4px 12px var(--shadow-hover);
 }
 
 /* ハンバーガーメニュー */
