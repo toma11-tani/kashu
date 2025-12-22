@@ -892,6 +892,12 @@ section {
   .owner-intro {
     padding: 1.5rem;
   }
+
+  .hero-subtitle {
+    white-space: nowrap;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
 }
 
 /* プリント */
