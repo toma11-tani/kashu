@@ -852,10 +852,11 @@ section {
     max-width: 420px;
   }
 
-.hero-buttons {
-  flex-direction: column;
-  align-items: stretch;
-}
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .news-item {
     flex-direction: column;
