@@ -103,14 +103,17 @@ body {
 }
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.75rem 1.5rem;
   border-radius: 50px;
   font-weight: 600;
   transition: all 0.3s ease;
   text-align: center;
   cursor: pointer;
-  min-width: 180px;
+  min-width: 200px;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -147,6 +150,15 @@ body {
   background: #fbe9e1;
   color: var(--brick);
   box-shadow: 0 4px 12px var(--shadow-hover);
+}
+
+.header-cta .btn,
+.hero-buttons .btn,
+.map-buttons .btn,
+.info-card .btn,
+.footer-links .btn {
+  width: 220px;
+  max-width: 100%;
 }
 
 /* ハンバーガーメニュー */
@@ -831,10 +843,6 @@ section {
     margin-top: 1rem;
   }
 
-  .header-cta .btn {
-    width: 100%;
-  }
-
   .signature-dish {
     grid-template-columns: 1fr;
   }
@@ -844,10 +852,10 @@ section {
     max-width: 420px;
   }
 
-  .hero-buttons {
-    flex-direction: column;
-    align-items: stretch;
-  }
+.hero-buttons {
+  flex-direction: column;
+  align-items: stretch;
+}
 
   .news-item {
     flex-direction: column;
