@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- Static site with page entry points: `index.html` (top), `menu.html`, `access.html`, `owner.html`.
+- Static site with page entry points: `index.html` (top), `menu.html`, `access.html`.
 - Shared assets live in `assets/`: `css/` (`reset.css`, `style.css`), `js/` (`main.js`), `img/` (hero/menu photos and any new imagery).
 - Keep shared styles, scripts, and icons centralized under `assets/`; avoid duplicating inline CSS/JS in page files.
 

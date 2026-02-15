@@ -26,7 +26,6 @@ project-root/
 ├─ index.html                # トップページ
 ├─ menu.html                 # メニューページ
 ├─ access.html               # 店舗情報ページ
-├─ owner.html                # 店長についてページ
 ├─ README.md                 # このファイル
 └─ assets/
    ├─ css/
@@ -165,13 +164,6 @@ project-root/
 - Googleマップ埋め込み
 - 店舗外観写真
 - アクセス詳細
-
-### owner.html（店長についてページ）
-
-- 店長の想い
-- これまでの歩み
-- プロフィール
-- 料理へのこだわり
 
 ---
 
