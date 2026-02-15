@@ -614,6 +614,7 @@ section {
   font-weight: 700;
   color: var(--jade-green);
   width: 120px;
+  vertical-align: top;
 }
 
 .info-table td {
